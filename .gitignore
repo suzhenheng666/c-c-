@@ -1,0 +1,25 @@
+# Build artifacts
+*.exe
+*.obj
+*.o
+*.out
+*.a
+*.lib
+*.dll
+*.pdb
+*.idb
+*.exp
+*.log
+*.tmp
+
+# C/C++ intermediate files
+*.d
+
+# IDE/Editor caches
+*.Cache
+*.user
+*.suo
+
+# Generated directories
+build/
+dist/
