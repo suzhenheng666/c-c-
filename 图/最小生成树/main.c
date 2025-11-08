@@ -92,7 +92,7 @@ void miniSpanTree_Prim(Graph* g)
     lowcast[0]=0;
     for(int i=1;i<g->vexnum;i++)
     {
-        int min=__INT_MAX__;
+        int min=INT_MAX;
         int k=0;
         for(int j=1;j<g->vexnum;j++)
         {
@@ -115,6 +115,8 @@ void miniSpanTree_Prim(Graph* g)
             }
         }
     }
+
+    
     printf("Path:");
     for(int i=0;i<g->vexnum;i++)
     {

@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "queue.h": "c"
+        "queue.h": "c",
+        "concepts": "c",
+        "type_traits": "c"
     }
 }

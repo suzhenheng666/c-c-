@@ -77,7 +77,7 @@ void printPath(int *parent,int v)
 void print(int *parent,int *v,int start,int n)
 {
     printf("Shortest path from the source %d to each vertex:\n",start);
-    printf("start\tmdistent\tPath\n");
+    printf("goal\tmdistent\tPath\n");
     for(int i=0;i<n;i++)
     {
         if(start!=i)
